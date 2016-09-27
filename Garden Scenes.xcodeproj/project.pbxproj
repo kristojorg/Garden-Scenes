@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845852601D9AE0F800C98D83 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8458525F1D9AE0F800C98D83 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		845852641D9AE0F800C98D83 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 845852631D9AE0F800C98D83 /* Stickers.xcstickers */; };
+		845852651D9AE0F800C98D83 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 845852631D9AE0F800C98D83 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845852611D9AE0F800C98D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845852551D9AE0F700C98D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8458525E1D9AE0F800C98D83;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8458526B1D9AE0F800C98D83 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				845852601D9AE0F800C98D83 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8458525B1D9AE0F700C98D83 /* Garden Scenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garden Scenes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8458525F1D9AE0F800C98D83 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		845852631D9AE0F800C98D83 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		845852541D9AE0F700C98D83 = {
+			isa = PBXGroup;
+			children = (
+				845852631D9AE0F800C98D83 /* Stickers.xcstickers */,
+				8458525C1D9AE0F700C98D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8458525C1D9AE0F700C98D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8458525B1D9AE0F700C98D83 /* Garden Scenes.app */,
+				8458525F1D9AE0F800C98D83 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8458525A1D9AE0F700C98D83 /* Garden Scenes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8458526C1D9AE0F800C98D83 /* Build configuration list for PBXNativeTarget "Garden Scenes" */;
+			buildPhases = (
+				845852591D9AE0F700C98D83 /* Resources */,
+				8458526B1D9AE0F800C98D83 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845852621D9AE0F800C98D83 /* PBXTargetDependency */,
+			);
+			name = "Garden Scenes";
+			productName = "Garden Scenes";
+			productReference = 8458525B1D9AE0F700C98D83 /* Garden Scenes.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		8458525E1D9AE0F800C98D83 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845852681D9AE0F800C98D83 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				8458525D1D9AE0F800C98D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 8458525F1D9AE0F800C98D83 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845852551D9AE0F700C98D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Garden Collage";
+				TargetAttributes = {
+					8458525A1D9AE0F700C98D83 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M7W6Y6778F;
+						ProvisioningStyle = Automatic;
+					};
+					8458525E1D9AE0F800C98D83 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M7W6Y6778F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 845852581D9AE0F700C98D83 /* Build configuration list for PBXProject "Garden Scenes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 845852541D9AE0F700C98D83;
+			productRefGroup = 8458525C1D9AE0F700C98D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8458525A1D9AE0F700C98D83 /* Garden Scenes */,
+				8458525E1D9AE0F800C98D83 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845852591D9AE0F700C98D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845852651D9AE0F800C98D83 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458525D1D9AE0F800C98D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845852641D9AE0F800C98D83 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845852621D9AE0F800C98D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8458525E1D9AE0F800C98D83 /* StickerPackExtension */;
+			targetProxy = 845852611D9AE0F800C98D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		845852661D9AE0F800C98D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		845852671D9AE0F800C98D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845852691D9AE0F800C98D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = M7W6Y6778F;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gardencollage.Garden-Scenes.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8458526A1D9AE0F800C98D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = M7W6Y6778F;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gardencollage.Garden-Scenes.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8458526D1D9AE0F800C98D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = M7W6Y6778F;
+				INFOPLIST_FILE = "Garden Scenes/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gardencollage.Garden-Scenes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8458526E1D9AE0F800C98D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = M7W6Y6778F;
+				INFOPLIST_FILE = "Garden Scenes/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gardencollage.Garden-Scenes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845852581D9AE0F700C98D83 /* Build configuration list for PBXProject "Garden Scenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845852661D9AE0F800C98D83 /* Debug */,
+				845852671D9AE0F800C98D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845852681D9AE0F800C98D83 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845852691D9AE0F800C98D83 /* Debug */,
+				8458526A1D9AE0F800C98D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8458526C1D9AE0F800C98D83 /* Build configuration list for PBXNativeTarget "Garden Scenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8458526D1D9AE0F800C98D83 /* Debug */,
+				8458526E1D9AE0F800C98D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845852551D9AE0F700C98D83 /* Project object */;
+}
