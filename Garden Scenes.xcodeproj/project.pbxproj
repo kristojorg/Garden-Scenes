@@ -317,6 +317,7 @@
 				8458526A1D9AE0F800C98D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8458526C1D9AE0F800C98D83 /* Build configuration list for PBXNativeTarget "Garden Scenes" */ = {
 			isa = XCConfigurationList;
@@ -325,6 +326,7 @@
 				8458526E1D9AE0F800C98D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
