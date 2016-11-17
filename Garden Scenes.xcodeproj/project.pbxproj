@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844039941DD4E855005339FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844039921DD4E855005339FE /* Info.plist */; };
+		844039951DD4E855005339FE /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 844039931DD4E855005339FE /* Stickers.xcstickers */; };
+		844039961DD4E93E005339FE /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 844039931DD4E855005339FE /* Stickers.xcstickers */; };
+		844039971DD4E943005339FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844039921DD4E855005339FE /* Info.plist */; };
 		845852601D9AE0F800C98D83 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8458525F1D9AE0F800C98D83 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		845852641D9AE0F800C98D83 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 845852631D9AE0F800C98D83 /* Stickers.xcstickers */; };
-		845852651D9AE0F800C98D83 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 845852631D9AE0F800C98D83 /* Stickers.xcstickers */; };
 		84F5E7621DA067FF00C68B6E /* 1024_768.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F5E74D1DA067FF00C68B6E /* 1024_768.png */; };
 		84F5E7631DA067FF00C68B6E /* 1024_768.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F5E74D1DA067FF00C68B6E /* 1024_768.png */; };
 		84F5E7641DA067FF00C68B6E /* 120_90.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F5E74F1DA067FF00C68B6E /* 120_90.png */; };
@@ -59,9 +61,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		844039921DD4E855005339FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844039931DD4E855005339FE /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		8458525B1D9AE0F700C98D83 /* Garden Scenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garden Scenes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8458525F1D9AE0F800C98D83 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		845852631D9AE0F800C98D83 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
 		84F5E74D1DA067FF00C68B6E /* 1024_768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024_768.png; sourceTree = "<group>"; };
 		84F5E74F1DA067FF00C68B6E /* 120_90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120_90.png; sourceTree = "<group>"; };
 		84F5E7511DA067FF00C68B6E /* 134_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 134_100.png; sourceTree = "<group>"; };
@@ -76,11 +79,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		844039911DD4E855005339FE /* StickerPackExtension */ = {
+			isa = PBXGroup;
+			children = (
+				844039921DD4E855005339FE /* Info.plist */,
+				844039931DD4E855005339FE /* Stickers.xcstickers */,
+			);
+			path = StickerPackExtension;
+			sourceTree = "<group>";
+		};
 		845852541D9AE0F700C98D83 = {
 			isa = PBXGroup;
 			children = (
+				844039911DD4E855005339FE /* StickerPackExtension */,
 				84F5E74B1DA067FF00C68B6E /* on_white */,
-				845852631D9AE0F800C98D83 /* Stickers.xcstickers */,
 				8458525C1D9AE0F700C98D83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -287,10 +299,11 @@
 				84F5E7661DA067FF00C68B6E /* 134_100.png in Resources */,
 				84F5E76E1DA067FF00C68B6E /* 58_58.png in Resources */,
 				84F5E7761DA067FF00C68B6E /* 96_72.png in Resources */,
+				844039941DD4E855005339FE /* Info.plist in Resources */,
 				84F5E76C1DA067FF00C68B6E /* 54_40.png in Resources */,
 				84F5E7701DA067FF00C68B6E /* 64_48.png in Resources */,
 				84F5E7721DA067FF00C68B6E /* 81_60.png in Resources */,
-				845852651D9AE0F800C98D83 /* Stickers.xcstickers in Resources */,
+				844039951DD4E855005339FE /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,10 +319,11 @@
 				84F5E7671DA067FF00C68B6E /* 134_100.png in Resources */,
 				84F5E76F1DA067FF00C68B6E /* 58_58.png in Resources */,
 				84F5E7771DA067FF00C68B6E /* 96_72.png in Resources */,
+				844039961DD4E93E005339FE /* Stickers.xcstickers in Resources */,
 				84F5E76D1DA067FF00C68B6E /* 54_40.png in Resources */,
 				84F5E7711DA067FF00C68B6E /* 64_48.png in Resources */,
 				84F5E7731DA067FF00C68B6E /* 81_60.png in Resources */,
-				845852641D9AE0F800C98D83 /* Stickers.xcstickers in Resources */,
+				844039971DD4E943005339FE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
